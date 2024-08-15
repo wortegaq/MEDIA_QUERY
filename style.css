@@ -1,8 +1,11 @@
 /* Estilos generales */
 body {
-    font-family: Arial, sans-serif;
-    margin: 10;
+    
+    margin: 0;
     padding: 0;
+    color: #f3f6f8;
+    font-family: 'Lora', serif;
+    font-size: 20px;
 }
 
 header {
@@ -10,17 +13,18 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #333;
+    background-color: #5d1818;
     color: #fff;
     padding: 1em;
 }
 
 header .logo img {
-    width: 50px;
-    height: 50px;
+    width: 75px;
+    height: 75px;
 }
 
 nav ul {
+    font-family: 'Lora', serif;
     list-style: none;
     margin: 0;
     padding: 0;
@@ -37,7 +41,10 @@ nav ul li a {
 }
 
 main {
+    font-family: 'Bebas Neue', sans-serif;
+    margin: 0 15px;
     padding: 1em;
+    color: #5d1818;
 }
 
 section {
@@ -47,8 +54,8 @@ section {
 }
 
 .card {
-    background: #f4f4f4;
-    border: 1px solid #ddd;
+    background: #5d1818;
+    border: 5px solid #c07d7d;
     margin: 1em;
     padding: 1em;
     width: calc(33% - 2em);
