@@ -84,6 +84,13 @@ main p {
     padding: 25px; 
 }
 
+main img {
+    width: 200px;
+    height: 200px;
+    border-radius: 20%;
+    margin: 0 300px;
+    border: 2px solid #fff;
+}
 
 section {
     display: flex;
@@ -92,14 +99,15 @@ section {
 }
 
 .card {
-    background: linear-gradient(135deg, #5d1818, #3023ae); 
+    background: linear-gradient(10deg, #5d1818, #3023ae); 
     color: #5d1818; 
-    border-radius: 20px;
+    border-radius: 40px;
     padding: 1em;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     width: calc(33% - 2em); 
     margin: 1em; 
+    border-color: #ec5050;
 }
 
 .card:hover {
@@ -119,8 +127,8 @@ section {
 }
 
 .card img {
-    width: 200px;
-    height: 200px;
+    width: 400px;
+    height: 400px;
     border-radius: 50%;
     margin: 0 100px;
     border: 5px solid #fff;
