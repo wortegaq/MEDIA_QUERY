@@ -9,7 +9,7 @@ body {
 }
 
 header {
-    margin: 10;
+    margin: 2px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -19,12 +19,27 @@ header {
 }
 
 header .logo img {
-    width: 75px;
-    height: 75px;
+    width: 100px;
+    height: 100px;
+    margin: 0 20px;
+}
+
+header div img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+header h1 {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 50px;
+    color: #ffffff;
+    text-align: center;
 }
 
 nav ul {
-    font-family: 'Lora', serif;
+    
     list-style: none;
     margin: 0;
     padding: 0;
@@ -32,20 +47,45 @@ nav ul {
 }
 
 nav ul li {
-    margin-left: 1em;
+    margin-right: 5em;
+    
+    
 }
 
 nav ul li a {
     color: #fff;
     text-decoration: none;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 30px;
+
 }
 
 main {
-    font-family: 'Bebas Neue', sans-serif;
-    margin: 0 15px;
-    padding: 1em;
-    color: #5d1818;
+    background: linear-gradient(135deg, #4b1d0a, #ec5050); 
+    color: #ffffff;
+    padding: 40px 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    border-radius: 40px;
+    box-shadow: 0 4px 8px rgba(121, 21, 21, 0.1);
 }
+
+main h1 {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 36px;
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+main p {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 20px;
+    line-height: 2;
+    text-align: justify;
+    padding: 25px; 
+}
+
 
 section {
     display: flex;
@@ -54,19 +94,41 @@ section {
 }
 
 .card {
-    background: #5d1818;
-    border: 5px solid #c07d7d;
-    margin: 1em;
+    background: linear-gradient(135deg, #5d1818, #3023ae); 
+    color: #5d1818; 
+    border-radius: 8px;
     padding: 1em;
-    width: calc(33% - 2em);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    width: calc(33% - 2em); 
+    margin: 1em; 
 }
 
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.card h2 {
+    margin-bottom: 0.5em;
+    font-family: 'Bebas Neue', sans-serif; /* Usar una fuente atractiva para los títulos */
+    color: #ffffff;
+}
+
+.card p {
+    font-family: 'Merriweather', serif;
+    color: #ffffff;
+}
+
+
 footer {
-    background-color: #333;
+    background-color: #5d1818;
     color: #fff;
     text-align: center;
     padding: 1em 0;
 }
+
+
 
 /* Estilos para laptop (1024px y superiores) */
 @media (min-width: 1024px) {
