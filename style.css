@@ -21,7 +21,7 @@ header {
 header .logo img {
     width: 100px;
     height: 100px;
-    margin: 0 20px;
+    margin: 0 40px;
 }
 
 header div img {
@@ -48,8 +48,6 @@ nav ul {
 
 nav ul li {
     margin-right: 5em;
-    
-    
 }
 
 nav ul li a {
@@ -96,7 +94,7 @@ section {
 .card {
     background: linear-gradient(135deg, #5d1818, #3023ae); 
     color: #5d1818; 
-    border-radius: 8px;
+    border-radius: 20px;
     padding: 1em;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
