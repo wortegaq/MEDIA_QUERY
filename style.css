@@ -1,4 +1,6 @@
 /* Estilos generales */
+
+
 body {
     
     margin: 0;
@@ -188,13 +190,12 @@ footer img {
     header .logo img {
         width: 60px;
         height: 60px;
-        margin: 10px 0;
+        margin-bottom: 10px;
     }
 
     header h1 {
         font-size: 28px;
         margin: 10px 0;
-        text-align: center;
     }
 
     nav ul {
@@ -210,45 +211,56 @@ footer img {
     nav ul li a {
         font-size: 18px;
         padding: 5px 10px;
-        display: block;
         text-align: center;
     }
 
     main {
-        padding: 15px 10px;
-        margin: 15px 10px;
+        padding: 20px 10px;
+        margin: 20px auto;
         max-width: 100%;
-        box-shadow: none;
-        border-radius: 20px;
+        border-radius: 12px;
+    }
+
+    main h1 {
+        font-size: 32px;
+        margin-bottom: 15px;
+    }
+
+    main p {
+        font-size: 18px;
+        line-height: 1.6;
+        padding: 0 10px;
     }
 
     main img {
-        width: 100%;
-        max-width: 150px;
-        height: auto;
+        max-width: 100%;
         margin: 20px auto;
-        display: block;
+        border-radius: 12px;
     }
 
     .card {
         width: 100%;
         margin: 1em 0;
-        padding: 15px;
-        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-        border-radius: 20px;
+        padding: 20px;
+        border-radius: 16px;
     }
 
     .card img {
-        width: 100%;
         max-width: 80%;
-        height: auto;
-        margin: 10px auto;
-        display: block;
+        margin: 20px auto;
+        border-radius: 50%; /* Mantiene las imágenes redondas */
     }
 
     footer {
         padding: 15px 10px;
         text-align: center;
+    }
+
+    footer img {
+        width: 30px;
+        height: 30px;
+        margin: 0 5px;
+        border-radius: 50%;
     }
 }
 
