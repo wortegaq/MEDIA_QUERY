@@ -6,6 +6,7 @@ body {
     color: #f3f6f8;
     font-family: 'Lora', serif;
     font-size: 20px;
+    background-color: #f1ded3;
 }
 
 header {
@@ -103,8 +104,8 @@ section {
     color: #5d1818; 
     border-radius: 40px;
     padding: 1em;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 20px 20px rgba(236, 80, 80, 0.5); 
+    transition: transform 0.3s ease, box-shadow 0.1s ease;
     width: calc(33% - 2em); 
     margin: 1em; 
     border-color: #ec5050;
@@ -144,64 +145,57 @@ footer {
 }
 
 
-
-/* Estilos para laptop (1024px y superiores) */
-@media (min-width: 1024px) {
-    .container {
-        width: 80%;
-    }
-
-    header, footer {
-        padding: 2em 0;
-    }
-
-    main {
-        padding: 2em 0;
-    }
-}
-
-/* Estilos para tablet (768px a 1023px) */
-@media (min-width: 768px) and (max-width: 1023px) {
-    .container {
-        width: 85%;
-    }
-
-    header, footer {
-        padding: 1.5em 0;
-    }
-
-    main {
-        padding: 1.5em 0;
-    }
-
-    .card {
-        width: calc(50% - 2em);
-    }
-}
-
-/* Estilos para móvil (hasta 767px) */
+/* Estilo para móviles (pantallas pequeñas) */
 @media (max-width: 767px) {
-    .container {
-        width: 95%;
+    header {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0.5em;
+    }
+    
+    header .logo img {
+        width: 80px;
+        height: 80px;
+        margin: 0 10px;
     }
 
-    header, footer {
-        padding: 1em 0;
-    }
-
-    main {
-        padding: 1em 0;
+    header h1 {
+        font-size: 30px;
+        text-align: left;
     }
 
     nav ul {
         flex-direction: column;
+        align-items: flex-start;
     }
 
     nav ul li {
-        margin: 0.5em 0;
+        margin-right: 1em;
+    }
+
+    nav ul li a {
+        font-size: 20px;
+    }
+
+    main {
+        padding: 20px 10px;
+        max-width: 100%;
+    }
+
+    main img {
+        width: 150px;
+        height: 150px;
+        margin: 0 auto;
     }
 
     .card {
-        width: calc(100% - 2em);
+        width: 100%;
+        margin: 1em 0;
+    }
+
+    .card img {
+        width: 100px;
+        height: 100px;
+        margin: 0 auto;
     }
 }
