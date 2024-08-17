@@ -43,4 +43,4 @@ de usuario óptima en cualquier dispositivo, desde móviles hasta pantallas gran
 Para empezar, clona el repositorio del proyecto a tu máquina local usando el siguiente comando:
 
 ```bash
-git clone https://github.com/wortegaq/guia-cafeteras.git
+git clone https://github.com/wortegaq/MEDIA_QUERY
