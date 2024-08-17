@@ -44,3 +44,8 @@ Para empezar, clona el repositorio del proyecto a tu máquina local usando el si
 
 ```bash
 git clone https://github.com/wortegaq/MEDIA_QUERY
+
+
+### 5. imagenes de prueba media query
+### link de drive con fotos de adjuntas
+https://drive.google.com/drive/folders/1Pg-oL04IYqJjc-IeTB_V4plcbnCprzXQ?usp=sharing
